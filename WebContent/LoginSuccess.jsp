@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h3>
-		Hi  <%=request.getAttribute("user")%>, Login Successful
+		Hi  <%=request.getAttribute("name")%>, Login Successful
 	</h3>
 	<a href="login.html">Login Page</a>
 </body>
