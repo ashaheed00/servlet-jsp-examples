@@ -7,9 +7,10 @@
 <title>Login Success</title>
 </head>
 <body>
-	<h3>
-		Hi  <%=request.getAttribute("name")%>, Login Successful
-	</h3>
+	<h2>
+		Hi  <%=request.getAttribute("name")%>, Login Successful<br>
+		Your username: <%=request.getAttribute("user") %>
+	</h2>
 	<a href="login.html">Login Page</a>
 </body>
 </html>
